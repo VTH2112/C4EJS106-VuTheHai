@@ -7,3 +7,4 @@
 console.log( typeof(name));
 // console.log("Tuổi : " + age);
 // console.log("Ngày sinh : " + date);
+alert("change file");
