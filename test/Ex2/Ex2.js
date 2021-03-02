@@ -34,4 +34,9 @@ while(m<nd){
     console.log(sum);
     console.log("______________________________________________");
     let mn = Number(prompt("Enter m!"));
-    console.log("m! =  "+( mn *= mn));
+    let nn = 1;
+    while(m<nd){
+        nn += m;
+        m++;
+    }
+    console.log(nn);
