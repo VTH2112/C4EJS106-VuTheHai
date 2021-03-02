@@ -35,8 +35,8 @@ while(m<nd){
     console.log("______________________________________________");
     let mn = Number(prompt("Enter m!"));
     let nn = 1;
-    while(m<nd){
+    while(mn<nd){
         nn += m;
-        m++;
+        mn++;
     }
     console.log(nn);
